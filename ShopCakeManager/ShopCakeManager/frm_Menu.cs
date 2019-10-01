@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace ShopCakeManager
 {
-    public partial class Form1 : Form
+    public partial class frm_Menu : Form
     {
-        public Form1()
+        public frm_Menu()
         {
             InitializeComponent();
         }
