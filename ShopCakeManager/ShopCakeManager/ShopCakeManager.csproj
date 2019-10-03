@@ -59,11 +59,23 @@
     <Compile Include="frm_DangNhap.designer.cs">
       <DependentUpon>frm_DangNhap.cs</DependentUpon>
     </Compile>
+    <Compile Include="frm_HoaDonOnline.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_HoaDonOnline.Designer.cs">
+      <DependentUpon>frm_HoaDonOnline.cs</DependentUpon>
+    </Compile>
     <Compile Include="frm_Menu.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frm_Menu.Designer.cs">
       <DependentUpon>frm_Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_XemChiTietPhieuDat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_XemChiTietPhieuDat.Designer.cs">
+      <DependentUpon>frm_XemChiTietPhieuDat.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -72,11 +84,29 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
+    <Compile Include="UC_HoaDonChiTiet.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_HoaDonChiTiet.Designer.cs">
+      <DependentUpon>UC_HoaDonChiTiet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl2.Designer.cs">
+      <DependentUpon>UserControl2.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="frm_DangNhap.resx">
       <DependentUpon>frm_DangNhap.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frm_HoaDonOnline.resx">
+      <DependentUpon>frm_HoaDonOnline.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frm_Menu.resx">
       <DependentUpon>frm_Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_XemChiTietPhieuDat.resx">
+      <DependentUpon>frm_XemChiTietPhieuDat.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -88,6 +118,12 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="UC_HoaDonChiTiet.resx">
+      <DependentUpon>UC_HoaDonChiTiet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl2.resx">
+      <DependentUpon>UserControl2.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="app.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

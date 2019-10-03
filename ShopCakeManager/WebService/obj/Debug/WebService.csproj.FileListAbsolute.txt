@@ -8,3 +8,7 @@ C:\Users\Van Sang Nguyen\Desktop\Project\ShopCakeManager\WebService\bin\WebServi
 C:\Users\Van Sang Nguyen\Desktop\Project\ShopCakeManager\WebService\obj\Debug\WebService.csprojResolveAssemblyReference.cache
 C:\Users\Van Sang Nguyen\Desktop\Project\ShopCakeManager\WebService\obj\Debug\WebService.dll
 C:\Users\Van Sang Nguyen\Desktop\Project\ShopCakeManager\WebService\obj\Debug\WebService.pdb
+D:\Bakery\ShopCakeManager\WebService\bin\WebService.dll
+D:\Bakery\ShopCakeManager\WebService\bin\WebService.pdb
+D:\Bakery\ShopCakeManager\WebService\obj\Debug\WebService.dll
+D:\Bakery\ShopCakeManager\WebService\obj\Debug\WebService.pdb
