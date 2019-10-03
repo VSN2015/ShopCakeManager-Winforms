@@ -1,5 +1,7 @@
 C:\Users\Van Sang Nguyen\Desktop\ProjectWF\ShopCakeManager\ShopCakeManager\bin\Debug\ShopCakeManager.exe.config
 C:\Users\Van Sang Nguyen\Desktop\Project\ShopCakeManager\ShopCakeManager\bin\Debug\ShopCakeManager.exe.config
+C:\Users\Van Sang Nguyen\Desktop\Project\ShopCakeManager\ShopCakeManager\obj\Debug\ShopCakeManager.csprojResolveAssemblyReference.cache
+C:\Users\Van Sang Nguyen\Desktop\Project\ShopCakeManager\ShopCakeManager\obj\Debug\ShopCakeManager.frm_DN.resources
 C:\Users\Van Sang Nguyen\Desktop\Project\ShopCakeManager\ShopCakeManager\obj\Debug\ShopCakeManager.Properties.Resources.resources
 C:\Users\Van Sang Nguyen\Desktop\Project\ShopCakeManager\ShopCakeManager\obj\Debug\ShopCakeManager.csproj.GenerateResource.Cache
 C:\Users\Van Sang Nguyen\Desktop\Project\ShopCakeManager\ShopCakeManager\bin\Debug\ShopCakeManager.exe
@@ -8,8 +10,10 @@ C:\Users\Van Sang Nguyen\Desktop\Project\ShopCakeManager\ShopCakeManager\bin\Deb
 C:\Users\Van Sang Nguyen\Desktop\Project\ShopCakeManager\ShopCakeManager\obj\Debug\ShopCakeManager.frm_DangNhap.resources
 C:\Users\Van Sang Nguyen\Desktop\Project\ShopCakeManager\ShopCakeManager\obj\Debug\ShopCakeManager.exe
 C:\Users\Van Sang Nguyen\Desktop\Project\ShopCakeManager\ShopCakeManager\obj\Debug\ShopCakeManager.pdb
+<<<<<<< HEAD
 C:\Users\Van Sang Nguyen\Desktop\Project\ShopCakeManager\ShopCakeManager\obj\Debug\ShopCakeManager.frm_Menu.resources
 C:\Users\Van Sang Nguyen\Desktop\Project\ShopCakeManager\ShopCakeManager\obj\Debug\ShopCakeManager.frm_Alert.resources
+<<<<<<< HEAD
 C:\Users\Van Sang Nguyen\Desktop\Project\ShopCakeManager\ShopCakeManager\obj\Debug\ShopCakeManager.csprojResolveAssemblyReference.cache
 C:\Users\Van Sang Nguyen\Desktop\ShopCakeManager-Winforms-675399c4d065310882d8c36c3f01267af8bdf7fa\ShopCakeManager\ShopCakeManager\bin\Debug\ShopCakeManager.exe.config
 C:\Users\Van Sang Nguyen\Desktop\ShopCakeManager-Winforms-675399c4d065310882d8c36c3f01267af8bdf7fa\ShopCakeManager\ShopCakeManager\obj\Debug\ShopCakeManager.exe
@@ -25,3 +29,30 @@ C:\Users\Van Sang Nguyen\Desktop\ShopCakeManager-Winforms-675399c4d065310882d8c3
 C:\Users\Van Sang Nguyen\Desktop\ShopCakeManager-Winforms-675399c4d065310882d8c36c3f01267af8bdf7fa\ShopCakeManager\ShopCakeManager\obj\Debug\ShopCakeManager.frm_Menu.resources
 C:\Users\Van Sang Nguyen\Desktop\ShopCakeManager-Winforms-675399c4d065310882d8c36c3f01267af8bdf7fa\ShopCakeManager\ShopCakeManager\obj\Debug\ShopCakeManager.Properties.Resources.resources
 C:\Users\Van Sang Nguyen\Desktop\ShopCakeManager-Winforms-675399c4d065310882d8c36c3f01267af8bdf7fa\ShopCakeManager\ShopCakeManager\obj\Debug\ShopCakeManager.csproj.GenerateResource.Cache
+=======
+=======
+D:\Bakery\ShopCakeManager\ShopCakeManager\bin\Debug\ShopCakeManager.exe.config
+D:\Bakery\ShopCakeManager\ShopCakeManager\bin\Debug\ShopCakeManager.exe
+D:\Bakery\ShopCakeManager\ShopCakeManager\bin\Debug\ShopCakeManager.pdb
+D:\Bakery\ShopCakeManager\ShopCakeManager\obj\Debug\ShopCakeManager.frm_DangNhap.resources
+D:\Bakery\ShopCakeManager\ShopCakeManager\obj\Debug\ShopCakeManager.frm_HoaDonOnline.resources
+D:\Bakery\ShopCakeManager\ShopCakeManager\obj\Debug\ShopCakeManager.frm_Menu.resources
+D:\Bakery\ShopCakeManager\ShopCakeManager\obj\Debug\ShopCakeManager.Properties.Resources.resources
+D:\Bakery\ShopCakeManager\ShopCakeManager\obj\Debug\ShopCakeManager.UC_HoaDonChiTiet.resources
+D:\Bakery\ShopCakeManager\ShopCakeManager\obj\Debug\ShopCakeManager.UserControl2.resources
+D:\Bakery\ShopCakeManager\ShopCakeManager\obj\Debug\ShopCakeManager.csproj.GenerateResource.Cache
+D:\Bakery\ShopCakeManager\ShopCakeManager\obj\Debug\ShopCakeManager.exe
+D:\Bakery\ShopCakeManager\ShopCakeManager\obj\Debug\ShopCakeManager.pdb
+D:\Bakery\ShopCakeManager\ShopCakeManager\obj\Debug\ShopCakeManager.csprojResolveAssemblyReference.cache
+D:\Bakery\ShopCakeManager\ShopCakeManager\obj\Debug\ShopCakeManager.frm_XemChiTietPhieuDat.resources
+>>>>>>> e198177daf1f8fdc26e3f63c15c6411a3f91d286
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> parent of e198177... Thương: Thiết kế giao diện đơn hàng online
+=======
+>>>>>>> e57c5c8fedf0d5646031e779644a98649aa73f04
+>>>>>>> parent of 675399c... đăng nhaaph và  phân quyền success
+>>>>>>> 4c5a7a784bbc0d7505410e305edd7a5e834d57a8
+>>>>>>> 0c5c01aa9670aa063f43d3db0684a6187b3e1afa
