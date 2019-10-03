@@ -11,3 +11,17 @@ C:\Users\Van Sang Nguyen\Desktop\Project\ShopCakeManager\ShopCakeManager\obj\Deb
 C:\Users\Van Sang Nguyen\Desktop\Project\ShopCakeManager\ShopCakeManager\obj\Debug\ShopCakeManager.frm_Menu.resources
 C:\Users\Van Sang Nguyen\Desktop\Project\ShopCakeManager\ShopCakeManager\obj\Debug\ShopCakeManager.frm_Alert.resources
 C:\Users\Van Sang Nguyen\Desktop\Project\ShopCakeManager\ShopCakeManager\obj\Debug\ShopCakeManager.csprojResolveAssemblyReference.cache
+C:\Users\Van Sang Nguyen\Desktop\ShopCakeManager-Winforms-675399c4d065310882d8c36c3f01267af8bdf7fa\ShopCakeManager\ShopCakeManager\bin\Debug\ShopCakeManager.exe.config
+C:\Users\Van Sang Nguyen\Desktop\ShopCakeManager-Winforms-675399c4d065310882d8c36c3f01267af8bdf7fa\ShopCakeManager\ShopCakeManager\obj\Debug\ShopCakeManager.exe
+C:\Users\Van Sang Nguyen\Desktop\ShopCakeManager-Winforms-675399c4d065310882d8c36c3f01267af8bdf7fa\ShopCakeManager\ShopCakeManager\obj\Debug\ShopCakeManager.pdb
+C:\Users\Van Sang Nguyen\Desktop\ShopCakeManager-Winforms-675399c4d065310882d8c36c3f01267af8bdf7fa\ShopCakeManager\ShopCakeManager\bin\Debug\ShopCakeManager.exe
+C:\Users\Van Sang Nguyen\Desktop\ShopCakeManager-Winforms-675399c4d065310882d8c36c3f01267af8bdf7fa\ShopCakeManager\ShopCakeManager\bin\Debug\ShopCakeManager.pdb
+C:\Users\Van Sang Nguyen\Desktop\ShopCakeManager-Winforms-675399c4d065310882d8c36c3f01267af8bdf7fa\ShopCakeManager\ShopCakeManager\bin\Debug\Bunifu_UI_v1.52.dll
+C:\Users\Van Sang Nguyen\Desktop\ShopCakeManager-Winforms-675399c4d065310882d8c36c3f01267af8bdf7fa\ShopCakeManager\ShopCakeManager\bin\Debug\DevComponents.DotNetBar2.dll
+C:\Users\Van Sang Nguyen\Desktop\ShopCakeManager-Winforms-675399c4d065310882d8c36c3f01267af8bdf7fa\ShopCakeManager\ShopCakeManager\bin\Debug\DevComponents.DotNetBar2.xml
+C:\Users\Van Sang Nguyen\Desktop\ShopCakeManager-Winforms-675399c4d065310882d8c36c3f01267af8bdf7fa\ShopCakeManager\ShopCakeManager\obj\Debug\ShopCakeManager.csprojResolveAssemblyReference.cache
+C:\Users\Van Sang Nguyen\Desktop\ShopCakeManager-Winforms-675399c4d065310882d8c36c3f01267af8bdf7fa\ShopCakeManager\ShopCakeManager\obj\Debug\ShopCakeManager.frm_Alert.resources
+C:\Users\Van Sang Nguyen\Desktop\ShopCakeManager-Winforms-675399c4d065310882d8c36c3f01267af8bdf7fa\ShopCakeManager\ShopCakeManager\obj\Debug\ShopCakeManager.frm_DangNhap.resources
+C:\Users\Van Sang Nguyen\Desktop\ShopCakeManager-Winforms-675399c4d065310882d8c36c3f01267af8bdf7fa\ShopCakeManager\ShopCakeManager\obj\Debug\ShopCakeManager.frm_Menu.resources
+C:\Users\Van Sang Nguyen\Desktop\ShopCakeManager-Winforms-675399c4d065310882d8c36c3f01267af8bdf7fa\ShopCakeManager\ShopCakeManager\obj\Debug\ShopCakeManager.Properties.Resources.resources
+C:\Users\Van Sang Nguyen\Desktop\ShopCakeManager-Winforms-675399c4d065310882d8c36c3f01267af8bdf7fa\ShopCakeManager\ShopCakeManager\obj\Debug\ShopCakeManager.csproj.GenerateResource.Cache
