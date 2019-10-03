@@ -53,6 +53,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frm_Alert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Alert.designer.cs">
+      <DependentUpon>frm_Alert.cs</DependentUpon>
+    </Compile>
     <Compile Include="frm_DangNhap.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,28 +81,6 @@
     <EmbeddedResource Include="frm_Alert.resx">
       <DependentUpon>frm_Alert.cs</DependentUpon>
     </EmbeddedResource>
-    <Compile Include="UC_HoaDonChiTiet.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UC_HoaDonChiTiet.Designer.cs">
-      <DependentUpon>UC_HoaDonChiTiet.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UserControl2.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UserControl2.Designer.cs">
-      <DependentUpon>UserControl2.cs</DependentUpon>
-    </Compile>
-<<<<<<< HEAD
-=======
->>>>>>> e198177daf1f8fdc26e3f63c15c6411a3f91d286
-=======
-<<<<<<< HEAD
->>>>>>> parent of e198177... Thương: Thiết kế giao diện đơn hàng online
-=======
->>>>>>> parent of 675399c... đăng nhaaph và  phân quyền success
->>>>>>> 4c5a7a784bbc0d7505410e305edd7a5e834d57a8
->>>>>>> e57c5c8fedf0d5646031e779644a98649aa73f04
     <EmbeddedResource Include="frm_DangNhap.resx">
       <DependentUpon>frm_DangNhap.cs</DependentUpon>
     </EmbeddedResource>
@@ -123,6 +107,21 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="Service References\ServiceReference\ShopCakeManager.ServiceReference.ArrayOfInt.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference\ShopCakeManager.ServiceReference.get_CountUser_PassNVResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference\ShopCakeManager.ServiceReference.get_Count_UserNVResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference\ShopCakeManager.ServiceReference.get_IDNVResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference\ShopCakeManager.ServiceReference.get_MaHoatDongResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
     <None Include="Service References\ServiceReference\ShopCakeManager.ServiceReference.HelloWorldResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>

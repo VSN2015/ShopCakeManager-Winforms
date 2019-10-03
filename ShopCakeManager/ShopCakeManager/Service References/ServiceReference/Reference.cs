@@ -9,7 +9,16 @@
 //------------------------------------------------------------------------------
 
 namespace ShopCakeManager.ServiceReference {
+    using System.Runtime.Serialization;
+    using System;
     
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.CollectionDataContractAttribute(Name="ArrayOfInt", Namespace="http://tempuri.org/", ItemName="int")]
+    [System.SerializableAttribute()]
+    public class ArrayOfInt : System.Collections.Generic.List<int> {
+    }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
     [System.ServiceModel.ServiceContractAttribute(ConfigurationName="ServiceReference.WebServiceSoap")]
@@ -21,6 +30,40 @@ namespace ShopCakeManager.ServiceReference {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/HelloWorld", ReplyAction="*")]
         System.Threading.Tasks.Task<ShopCakeManager.ServiceReference.HelloWorldResponse> HelloWorldAsync(ShopCakeManager.ServiceReference.HelloWorldRequest request);
+        
+        // CODEGEN: Generating message contract since element name username from namespace http://tempuri.org/ is not marked nillable
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/get_Count_UserNV", ReplyAction="*")]
+        ShopCakeManager.ServiceReference.get_Count_UserNVResponse get_Count_UserNV(ShopCakeManager.ServiceReference.get_Count_UserNVRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/get_Count_UserNV", ReplyAction="*")]
+        System.Threading.Tasks.Task<ShopCakeManager.ServiceReference.get_Count_UserNVResponse> get_Count_UserNVAsync(ShopCakeManager.ServiceReference.get_Count_UserNVRequest request);
+        
+        // CODEGEN: Generating message contract since element name username from namespace http://tempuri.org/ is not marked nillable
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/get_CountUser_PassNV", ReplyAction="*")]
+        ShopCakeManager.ServiceReference.get_CountUser_PassNVResponse get_CountUser_PassNV(ShopCakeManager.ServiceReference.get_CountUser_PassNVRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/get_CountUser_PassNV", ReplyAction="*")]
+        System.Threading.Tasks.Task<ShopCakeManager.ServiceReference.get_CountUser_PassNVResponse> get_CountUser_PassNVAsync(ShopCakeManager.ServiceReference.get_CountUser_PassNVRequest request);
+        
+        // CODEGEN: Generating message contract since element name username from namespace http://tempuri.org/ is not marked nillable
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/get_IDNV", ReplyAction="*")]
+        ShopCakeManager.ServiceReference.get_IDNVResponse get_IDNV(ShopCakeManager.ServiceReference.get_IDNVRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/get_IDNV", ReplyAction="*")]
+        System.Threading.Tasks.Task<ShopCakeManager.ServiceReference.get_IDNVResponse> get_IDNVAsync(ShopCakeManager.ServiceReference.get_IDNVRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/get_MaQuyenNV", ReplyAction="*")]
+        int get_MaQuyenNV(int maNV);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/get_MaQuyenNV", ReplyAction="*")]
+        System.Threading.Tasks.Task<int> get_MaQuyenNVAsync(int maNV);
+        
+        // CODEGEN: Generating message contract since element name get_MaHoatDongResult from namespace http://tempuri.org/ is not marked nillable
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/get_MaHoatDong", ReplyAction="*")]
+        ShopCakeManager.ServiceReference.get_MaHoatDongResponse get_MaHoatDong(ShopCakeManager.ServiceReference.get_MaHoatDongRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/get_MaHoatDong", ReplyAction="*")]
+        System.Threading.Tasks.Task<ShopCakeManager.ServiceReference.get_MaHoatDongResponse> get_MaHoatDongAsync(ShopCakeManager.ServiceReference.get_MaHoatDongRequest request);
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
@@ -84,6 +127,286 @@ namespace ShopCakeManager.ServiceReference {
         }
     }
     
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
+    public partial class get_Count_UserNVRequest {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Name="get_Count_UserNV", Namespace="http://tempuri.org/", Order=0)]
+        public ShopCakeManager.ServiceReference.get_Count_UserNVRequestBody Body;
+        
+        public get_Count_UserNVRequest() {
+        }
+        
+        public get_Count_UserNVRequest(ShopCakeManager.ServiceReference.get_Count_UserNVRequestBody Body) {
+            this.Body = Body;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
+    public partial class get_Count_UserNVRequestBody {
+        
+        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=0)]
+        public string username;
+        
+        public get_Count_UserNVRequestBody() {
+        }
+        
+        public get_Count_UserNVRequestBody(string username) {
+            this.username = username;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
+    public partial class get_Count_UserNVResponse {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Name="get_Count_UserNVResponse", Namespace="http://tempuri.org/", Order=0)]
+        public ShopCakeManager.ServiceReference.get_Count_UserNVResponseBody Body;
+        
+        public get_Count_UserNVResponse() {
+        }
+        
+        public get_Count_UserNVResponse(ShopCakeManager.ServiceReference.get_Count_UserNVResponseBody Body) {
+            this.Body = Body;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
+    public partial class get_Count_UserNVResponseBody {
+        
+        [System.Runtime.Serialization.DataMemberAttribute(Order=0)]
+        public int get_Count_UserNVResult;
+        
+        public get_Count_UserNVResponseBody() {
+        }
+        
+        public get_Count_UserNVResponseBody(int get_Count_UserNVResult) {
+            this.get_Count_UserNVResult = get_Count_UserNVResult;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
+    public partial class get_CountUser_PassNVRequest {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Name="get_CountUser_PassNV", Namespace="http://tempuri.org/", Order=0)]
+        public ShopCakeManager.ServiceReference.get_CountUser_PassNVRequestBody Body;
+        
+        public get_CountUser_PassNVRequest() {
+        }
+        
+        public get_CountUser_PassNVRequest(ShopCakeManager.ServiceReference.get_CountUser_PassNVRequestBody Body) {
+            this.Body = Body;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
+    public partial class get_CountUser_PassNVRequestBody {
+        
+        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=0)]
+        public string username;
+        
+        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=1)]
+        public string pass;
+        
+        public get_CountUser_PassNVRequestBody() {
+        }
+        
+        public get_CountUser_PassNVRequestBody(string username, string pass) {
+            this.username = username;
+            this.pass = pass;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
+    public partial class get_CountUser_PassNVResponse {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Name="get_CountUser_PassNVResponse", Namespace="http://tempuri.org/", Order=0)]
+        public ShopCakeManager.ServiceReference.get_CountUser_PassNVResponseBody Body;
+        
+        public get_CountUser_PassNVResponse() {
+        }
+        
+        public get_CountUser_PassNVResponse(ShopCakeManager.ServiceReference.get_CountUser_PassNVResponseBody Body) {
+            this.Body = Body;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
+    public partial class get_CountUser_PassNVResponseBody {
+        
+        [System.Runtime.Serialization.DataMemberAttribute(Order=0)]
+        public int get_CountUser_PassNVResult;
+        
+        public get_CountUser_PassNVResponseBody() {
+        }
+        
+        public get_CountUser_PassNVResponseBody(int get_CountUser_PassNVResult) {
+            this.get_CountUser_PassNVResult = get_CountUser_PassNVResult;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
+    public partial class get_IDNVRequest {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Name="get_IDNV", Namespace="http://tempuri.org/", Order=0)]
+        public ShopCakeManager.ServiceReference.get_IDNVRequestBody Body;
+        
+        public get_IDNVRequest() {
+        }
+        
+        public get_IDNVRequest(ShopCakeManager.ServiceReference.get_IDNVRequestBody Body) {
+            this.Body = Body;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
+    public partial class get_IDNVRequestBody {
+        
+        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=0)]
+        public string username;
+        
+        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=1)]
+        public string pass;
+        
+        public get_IDNVRequestBody() {
+        }
+        
+        public get_IDNVRequestBody(string username, string pass) {
+            this.username = username;
+            this.pass = pass;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
+    public partial class get_IDNVResponse {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Name="get_IDNVResponse", Namespace="http://tempuri.org/", Order=0)]
+        public ShopCakeManager.ServiceReference.get_IDNVResponseBody Body;
+        
+        public get_IDNVResponse() {
+        }
+        
+        public get_IDNVResponse(ShopCakeManager.ServiceReference.get_IDNVResponseBody Body) {
+            this.Body = Body;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
+    public partial class get_IDNVResponseBody {
+        
+        [System.Runtime.Serialization.DataMemberAttribute(Order=0)]
+        public int get_IDNVResult;
+        
+        public get_IDNVResponseBody() {
+        }
+        
+        public get_IDNVResponseBody(int get_IDNVResult) {
+            this.get_IDNVResult = get_IDNVResult;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
+    public partial class get_MaHoatDongRequest {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Name="get_MaHoatDong", Namespace="http://tempuri.org/", Order=0)]
+        public ShopCakeManager.ServiceReference.get_MaHoatDongRequestBody Body;
+        
+        public get_MaHoatDongRequest() {
+        }
+        
+        public get_MaHoatDongRequest(ShopCakeManager.ServiceReference.get_MaHoatDongRequestBody Body) {
+            this.Body = Body;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
+    public partial class get_MaHoatDongRequestBody {
+        
+        [System.Runtime.Serialization.DataMemberAttribute(Order=0)]
+        public int maQuyen;
+        
+        public get_MaHoatDongRequestBody() {
+        }
+        
+        public get_MaHoatDongRequestBody(int maQuyen) {
+            this.maQuyen = maQuyen;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
+    public partial class get_MaHoatDongResponse {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Name="get_MaHoatDongResponse", Namespace="http://tempuri.org/", Order=0)]
+        public ShopCakeManager.ServiceReference.get_MaHoatDongResponseBody Body;
+        
+        public get_MaHoatDongResponse() {
+        }
+        
+        public get_MaHoatDongResponse(ShopCakeManager.ServiceReference.get_MaHoatDongResponseBody Body) {
+            this.Body = Body;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
+    public partial class get_MaHoatDongResponseBody {
+        
+        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=0)]
+        public ShopCakeManager.ServiceReference.ArrayOfInt get_MaHoatDongResult;
+        
+        public get_MaHoatDongResponseBody() {
+        }
+        
+        public get_MaHoatDongResponseBody(ShopCakeManager.ServiceReference.ArrayOfInt get_MaHoatDongResult) {
+            this.get_MaHoatDongResult = get_MaHoatDongResult;
+        }
+    }
+    
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
     public interface WebServiceSoapChannel : ShopCakeManager.ServiceReference.WebServiceSoap, System.ServiceModel.IClientChannel {
     }
@@ -132,6 +455,118 @@ namespace ShopCakeManager.ServiceReference {
             ShopCakeManager.ServiceReference.HelloWorldRequest inValue = new ShopCakeManager.ServiceReference.HelloWorldRequest();
             inValue.Body = new ShopCakeManager.ServiceReference.HelloWorldRequestBody();
             return ((ShopCakeManager.ServiceReference.WebServiceSoap)(this)).HelloWorldAsync(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        ShopCakeManager.ServiceReference.get_Count_UserNVResponse ShopCakeManager.ServiceReference.WebServiceSoap.get_Count_UserNV(ShopCakeManager.ServiceReference.get_Count_UserNVRequest request) {
+            return base.Channel.get_Count_UserNV(request);
+        }
+        
+        public int get_Count_UserNV(string username) {
+            ShopCakeManager.ServiceReference.get_Count_UserNVRequest inValue = new ShopCakeManager.ServiceReference.get_Count_UserNVRequest();
+            inValue.Body = new ShopCakeManager.ServiceReference.get_Count_UserNVRequestBody();
+            inValue.Body.username = username;
+            ShopCakeManager.ServiceReference.get_Count_UserNVResponse retVal = ((ShopCakeManager.ServiceReference.WebServiceSoap)(this)).get_Count_UserNV(inValue);
+            return retVal.Body.get_Count_UserNVResult;
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        System.Threading.Tasks.Task<ShopCakeManager.ServiceReference.get_Count_UserNVResponse> ShopCakeManager.ServiceReference.WebServiceSoap.get_Count_UserNVAsync(ShopCakeManager.ServiceReference.get_Count_UserNVRequest request) {
+            return base.Channel.get_Count_UserNVAsync(request);
+        }
+        
+        public System.Threading.Tasks.Task<ShopCakeManager.ServiceReference.get_Count_UserNVResponse> get_Count_UserNVAsync(string username) {
+            ShopCakeManager.ServiceReference.get_Count_UserNVRequest inValue = new ShopCakeManager.ServiceReference.get_Count_UserNVRequest();
+            inValue.Body = new ShopCakeManager.ServiceReference.get_Count_UserNVRequestBody();
+            inValue.Body.username = username;
+            return ((ShopCakeManager.ServiceReference.WebServiceSoap)(this)).get_Count_UserNVAsync(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        ShopCakeManager.ServiceReference.get_CountUser_PassNVResponse ShopCakeManager.ServiceReference.WebServiceSoap.get_CountUser_PassNV(ShopCakeManager.ServiceReference.get_CountUser_PassNVRequest request) {
+            return base.Channel.get_CountUser_PassNV(request);
+        }
+        
+        public int get_CountUser_PassNV(string username, string pass) {
+            ShopCakeManager.ServiceReference.get_CountUser_PassNVRequest inValue = new ShopCakeManager.ServiceReference.get_CountUser_PassNVRequest();
+            inValue.Body = new ShopCakeManager.ServiceReference.get_CountUser_PassNVRequestBody();
+            inValue.Body.username = username;
+            inValue.Body.pass = pass;
+            ShopCakeManager.ServiceReference.get_CountUser_PassNVResponse retVal = ((ShopCakeManager.ServiceReference.WebServiceSoap)(this)).get_CountUser_PassNV(inValue);
+            return retVal.Body.get_CountUser_PassNVResult;
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        System.Threading.Tasks.Task<ShopCakeManager.ServiceReference.get_CountUser_PassNVResponse> ShopCakeManager.ServiceReference.WebServiceSoap.get_CountUser_PassNVAsync(ShopCakeManager.ServiceReference.get_CountUser_PassNVRequest request) {
+            return base.Channel.get_CountUser_PassNVAsync(request);
+        }
+        
+        public System.Threading.Tasks.Task<ShopCakeManager.ServiceReference.get_CountUser_PassNVResponse> get_CountUser_PassNVAsync(string username, string pass) {
+            ShopCakeManager.ServiceReference.get_CountUser_PassNVRequest inValue = new ShopCakeManager.ServiceReference.get_CountUser_PassNVRequest();
+            inValue.Body = new ShopCakeManager.ServiceReference.get_CountUser_PassNVRequestBody();
+            inValue.Body.username = username;
+            inValue.Body.pass = pass;
+            return ((ShopCakeManager.ServiceReference.WebServiceSoap)(this)).get_CountUser_PassNVAsync(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        ShopCakeManager.ServiceReference.get_IDNVResponse ShopCakeManager.ServiceReference.WebServiceSoap.get_IDNV(ShopCakeManager.ServiceReference.get_IDNVRequest request) {
+            return base.Channel.get_IDNV(request);
+        }
+        
+        public int get_IDNV(string username, string pass) {
+            ShopCakeManager.ServiceReference.get_IDNVRequest inValue = new ShopCakeManager.ServiceReference.get_IDNVRequest();
+            inValue.Body = new ShopCakeManager.ServiceReference.get_IDNVRequestBody();
+            inValue.Body.username = username;
+            inValue.Body.pass = pass;
+            ShopCakeManager.ServiceReference.get_IDNVResponse retVal = ((ShopCakeManager.ServiceReference.WebServiceSoap)(this)).get_IDNV(inValue);
+            return retVal.Body.get_IDNVResult;
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        System.Threading.Tasks.Task<ShopCakeManager.ServiceReference.get_IDNVResponse> ShopCakeManager.ServiceReference.WebServiceSoap.get_IDNVAsync(ShopCakeManager.ServiceReference.get_IDNVRequest request) {
+            return base.Channel.get_IDNVAsync(request);
+        }
+        
+        public System.Threading.Tasks.Task<ShopCakeManager.ServiceReference.get_IDNVResponse> get_IDNVAsync(string username, string pass) {
+            ShopCakeManager.ServiceReference.get_IDNVRequest inValue = new ShopCakeManager.ServiceReference.get_IDNVRequest();
+            inValue.Body = new ShopCakeManager.ServiceReference.get_IDNVRequestBody();
+            inValue.Body.username = username;
+            inValue.Body.pass = pass;
+            return ((ShopCakeManager.ServiceReference.WebServiceSoap)(this)).get_IDNVAsync(inValue);
+        }
+        
+        public int get_MaQuyenNV(int maNV) {
+            return base.Channel.get_MaQuyenNV(maNV);
+        }
+        
+        public System.Threading.Tasks.Task<int> get_MaQuyenNVAsync(int maNV) {
+            return base.Channel.get_MaQuyenNVAsync(maNV);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        ShopCakeManager.ServiceReference.get_MaHoatDongResponse ShopCakeManager.ServiceReference.WebServiceSoap.get_MaHoatDong(ShopCakeManager.ServiceReference.get_MaHoatDongRequest request) {
+            return base.Channel.get_MaHoatDong(request);
+        }
+        
+        public ShopCakeManager.ServiceReference.ArrayOfInt get_MaHoatDong(int maQuyen) {
+            ShopCakeManager.ServiceReference.get_MaHoatDongRequest inValue = new ShopCakeManager.ServiceReference.get_MaHoatDongRequest();
+            inValue.Body = new ShopCakeManager.ServiceReference.get_MaHoatDongRequestBody();
+            inValue.Body.maQuyen = maQuyen;
+            ShopCakeManager.ServiceReference.get_MaHoatDongResponse retVal = ((ShopCakeManager.ServiceReference.WebServiceSoap)(this)).get_MaHoatDong(inValue);
+            return retVal.Body.get_MaHoatDongResult;
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        System.Threading.Tasks.Task<ShopCakeManager.ServiceReference.get_MaHoatDongResponse> ShopCakeManager.ServiceReference.WebServiceSoap.get_MaHoatDongAsync(ShopCakeManager.ServiceReference.get_MaHoatDongRequest request) {
+            return base.Channel.get_MaHoatDongAsync(request);
+        }
+        
+        public System.Threading.Tasks.Task<ShopCakeManager.ServiceReference.get_MaHoatDongResponse> get_MaHoatDongAsync(int maQuyen) {
+            ShopCakeManager.ServiceReference.get_MaHoatDongRequest inValue = new ShopCakeManager.ServiceReference.get_MaHoatDongRequest();
+            inValue.Body = new ShopCakeManager.ServiceReference.get_MaHoatDongRequestBody();
+            inValue.Body.maQuyen = maQuyen;
+            return ((ShopCakeManager.ServiceReference.WebServiceSoap)(this)).get_MaHoatDongAsync(inValue);
         }
     }
 }
