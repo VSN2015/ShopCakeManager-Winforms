@@ -53,12 +53,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frm_Alert.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frm_Alert.designer.cs">
-      <DependentUpon>frm_Alert.cs</DependentUpon>
-    </Compile>
     <Compile Include="frm_DangNhap.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -98,7 +92,11 @@
     </Compile>
 >>>>>>> e198177daf1f8fdc26e3f63c15c6411a3f91d286
 =======
+<<<<<<< HEAD
 >>>>>>> parent of e198177... Thương: Thiết kế giao diện đơn hàng online
+=======
+>>>>>>> parent of 675399c... đăng nhaaph và  phân quyền success
+>>>>>>> 4c5a7a784bbc0d7505410e305edd7a5e834d57a8
     <EmbeddedResource Include="frm_DangNhap.resx">
       <DependentUpon>frm_DangNhap.cs</DependentUpon>
     </EmbeddedResource>
@@ -125,21 +123,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <None Include="Service References\ServiceReference\ShopCakeManager.ServiceReference.ArrayOfInt.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\ServiceReference\ShopCakeManager.ServiceReference.get_CountUser_PassNVResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\ServiceReference\ShopCakeManager.ServiceReference.get_Count_UserNVResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\ServiceReference\ShopCakeManager.ServiceReference.get_IDNVResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\ServiceReference\ShopCakeManager.ServiceReference.get_MaHoatDongResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
     <None Include="Service References\ServiceReference\ShopCakeManager.ServiceReference.HelloWorldResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>

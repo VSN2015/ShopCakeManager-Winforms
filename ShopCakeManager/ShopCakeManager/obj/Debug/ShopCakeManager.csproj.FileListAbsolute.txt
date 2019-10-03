@@ -1,5 +1,7 @@
 C:\Users\Van Sang Nguyen\Desktop\ProjectWF\ShopCakeManager\ShopCakeManager\bin\Debug\ShopCakeManager.exe.config
 C:\Users\Van Sang Nguyen\Desktop\Project\ShopCakeManager\ShopCakeManager\bin\Debug\ShopCakeManager.exe.config
+C:\Users\Van Sang Nguyen\Desktop\Project\ShopCakeManager\ShopCakeManager\obj\Debug\ShopCakeManager.csprojResolveAssemblyReference.cache
+C:\Users\Van Sang Nguyen\Desktop\Project\ShopCakeManager\ShopCakeManager\obj\Debug\ShopCakeManager.frm_DN.resources
 C:\Users\Van Sang Nguyen\Desktop\Project\ShopCakeManager\ShopCakeManager\obj\Debug\ShopCakeManager.Properties.Resources.resources
 C:\Users\Van Sang Nguyen\Desktop\Project\ShopCakeManager\ShopCakeManager\obj\Debug\ShopCakeManager.csproj.GenerateResource.Cache
 C:\Users\Van Sang Nguyen\Desktop\Project\ShopCakeManager\ShopCakeManager\bin\Debug\ShopCakeManager.exe
@@ -30,4 +32,8 @@ D:\Bakery\ShopCakeManager\ShopCakeManager\obj\Debug\ShopCakeManager.csprojResolv
 D:\Bakery\ShopCakeManager\ShopCakeManager\obj\Debug\ShopCakeManager.frm_XemChiTietPhieuDat.resources
 >>>>>>> e198177daf1f8fdc26e3f63c15c6411a3f91d286
 =======
+<<<<<<< HEAD
 >>>>>>> parent of e198177... Thương: Thiết kế giao diện đơn hàng online
+=======
+>>>>>>> parent of 675399c... đăng nhaaph và  phân quyền success
+>>>>>>> 4c5a7a784bbc0d7505410e305edd7a5e834d57a8
