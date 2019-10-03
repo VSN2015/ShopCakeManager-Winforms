@@ -1,5 +1,7 @@
 C:\Users\Van Sang Nguyen\Desktop\ProjectWF\ShopCakeManager\ShopCakeManager\bin\Debug\ShopCakeManager.exe.config
 C:\Users\Van Sang Nguyen\Desktop\Project\ShopCakeManager\ShopCakeManager\bin\Debug\ShopCakeManager.exe.config
+C:\Users\Van Sang Nguyen\Desktop\Project\ShopCakeManager\ShopCakeManager\obj\Debug\ShopCakeManager.csprojResolveAssemblyReference.cache
+C:\Users\Van Sang Nguyen\Desktop\Project\ShopCakeManager\ShopCakeManager\obj\Debug\ShopCakeManager.frm_DN.resources
 C:\Users\Van Sang Nguyen\Desktop\Project\ShopCakeManager\ShopCakeManager\obj\Debug\ShopCakeManager.Properties.Resources.resources
 C:\Users\Van Sang Nguyen\Desktop\Project\ShopCakeManager\ShopCakeManager\obj\Debug\ShopCakeManager.csproj.GenerateResource.Cache
 C:\Users\Van Sang Nguyen\Desktop\Project\ShopCakeManager\ShopCakeManager\bin\Debug\ShopCakeManager.exe
@@ -11,7 +13,6 @@ C:\Users\Van Sang Nguyen\Desktop\Project\ShopCakeManager\ShopCakeManager\obj\Deb
 <<<<<<< HEAD
 C:\Users\Van Sang Nguyen\Desktop\Project\ShopCakeManager\ShopCakeManager\obj\Debug\ShopCakeManager.frm_Menu.resources
 C:\Users\Van Sang Nguyen\Desktop\Project\ShopCakeManager\ShopCakeManager\obj\Debug\ShopCakeManager.frm_Alert.resources
-C:\Users\Van Sang Nguyen\Desktop\Project\ShopCakeManager\ShopCakeManager\obj\Debug\ShopCakeManager.csprojResolveAssemblyReference.cache
 =======
 D:\Bakery\ShopCakeManager\ShopCakeManager\bin\Debug\ShopCakeManager.exe.config
 D:\Bakery\ShopCakeManager\ShopCakeManager\bin\Debug\ShopCakeManager.exe
@@ -28,3 +29,12 @@ D:\Bakery\ShopCakeManager\ShopCakeManager\obj\Debug\ShopCakeManager.pdb
 D:\Bakery\ShopCakeManager\ShopCakeManager\obj\Debug\ShopCakeManager.csprojResolveAssemblyReference.cache
 D:\Bakery\ShopCakeManager\ShopCakeManager\obj\Debug\ShopCakeManager.frm_XemChiTietPhieuDat.resources
 >>>>>>> e198177daf1f8fdc26e3f63c15c6411a3f91d286
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> parent of e198177... Thương: Thiết kế giao diện đơn hàng online
+=======
+>>>>>>> e57c5c8fedf0d5646031e779644a98649aa73f04
+>>>>>>> parent of 675399c... đăng nhaaph và  phân quyền success
+>>>>>>> 4c5a7a784bbc0d7505410e305edd7a5e834d57a8
