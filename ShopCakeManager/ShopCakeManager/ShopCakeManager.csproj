@@ -84,12 +84,9 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
-<<<<<<< HEAD
-<<<<<<< HEAD
     <EmbeddedResource Include="frm_Alert.resx">
       <DependentUpon>frm_Alert.cs</DependentUpon>
     </EmbeddedResource>
-=======
     <Compile Include="UC_HoaDonChiTiet.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -102,9 +99,6 @@
     <Compile Include="UserControl2.Designer.cs">
       <DependentUpon>UserControl2.cs</DependentUpon>
     </Compile>
->>>>>>> e198177daf1f8fdc26e3f63c15c6411a3f91d286
-=======
->>>>>>> parent of 675399c... đăng nhaaph và  phân quyền success
     <EmbeddedResource Include="frm_DangNhap.resx">
       <DependentUpon>frm_DangNhap.cs</DependentUpon>
     </EmbeddedResource>
