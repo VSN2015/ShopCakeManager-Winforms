@@ -1,5 +1,7 @@
 C:\Users\Van Sang Nguyen\Desktop\ProjectWF\ShopCakeManager\ShopCakeManager\bin\Debug\ShopCakeManager.exe.config
 C:\Users\Van Sang Nguyen\Desktop\Project\ShopCakeManager\ShopCakeManager\bin\Debug\ShopCakeManager.exe.config
+C:\Users\Van Sang Nguyen\Desktop\Project\ShopCakeManager\ShopCakeManager\obj\Debug\ShopCakeManager.csprojResolveAssemblyReference.cache
+C:\Users\Van Sang Nguyen\Desktop\Project\ShopCakeManager\ShopCakeManager\obj\Debug\ShopCakeManager.frm_DN.resources
 C:\Users\Van Sang Nguyen\Desktop\Project\ShopCakeManager\ShopCakeManager\obj\Debug\ShopCakeManager.Properties.Resources.resources
 C:\Users\Van Sang Nguyen\Desktop\Project\ShopCakeManager\ShopCakeManager\obj\Debug\ShopCakeManager.csproj.GenerateResource.Cache
 C:\Users\Van Sang Nguyen\Desktop\Project\ShopCakeManager\ShopCakeManager\bin\Debug\ShopCakeManager.exe
@@ -8,6 +10,7 @@ C:\Users\Van Sang Nguyen\Desktop\Project\ShopCakeManager\ShopCakeManager\bin\Deb
 C:\Users\Van Sang Nguyen\Desktop\Project\ShopCakeManager\ShopCakeManager\obj\Debug\ShopCakeManager.frm_DangNhap.resources
 C:\Users\Van Sang Nguyen\Desktop\Project\ShopCakeManager\ShopCakeManager\obj\Debug\ShopCakeManager.exe
 C:\Users\Van Sang Nguyen\Desktop\Project\ShopCakeManager\ShopCakeManager\obj\Debug\ShopCakeManager.pdb
+<<<<<<< HEAD
 <<<<<<< HEAD
 C:\Users\Van Sang Nguyen\Desktop\Project\ShopCakeManager\ShopCakeManager\obj\Debug\ShopCakeManager.frm_Menu.resources
 C:\Users\Van Sang Nguyen\Desktop\Project\ShopCakeManager\ShopCakeManager\obj\Debug\ShopCakeManager.frm_Alert.resources
@@ -28,3 +31,5 @@ D:\Bakery\ShopCakeManager\ShopCakeManager\obj\Debug\ShopCakeManager.pdb
 D:\Bakery\ShopCakeManager\ShopCakeManager\obj\Debug\ShopCakeManager.csprojResolveAssemblyReference.cache
 D:\Bakery\ShopCakeManager\ShopCakeManager\obj\Debug\ShopCakeManager.frm_XemChiTietPhieuDat.resources
 >>>>>>> e198177daf1f8fdc26e3f63c15c6411a3f91d286
+=======
+>>>>>>> parent of 675399c... đăng nhaaph và  phân quyền success
