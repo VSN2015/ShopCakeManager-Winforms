@@ -16,11 +16,15 @@ namespace ShopCakeManager
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 <<<<<<< HEAD
+<<<<<<< HEAD
             Application.Run(new frm_DangNhap());
 =======
             //Application.Run(new frm_Menu());
             Application.Run(new frm_HoaDonOnline());
 >>>>>>> e198177daf1f8fdc26e3f63c15c6411a3f91d286
+=======
+            Application.Run(new frm_Menu());
+>>>>>>> parent of e198177... Thương: Thiết kế giao diện đơn hàng online
         }
     }
 }
